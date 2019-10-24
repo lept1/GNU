@@ -1,0 +1,16 @@
+set xlabel "p_i(t)";
+set xlabel "t";
+#set title "Hawks vs Dove with D<V"; 
+#set key outside;
+set key right top;
+#set xtics  0,2500,10000;
+set yrange [0:1];
+set xrange [0:20]
+#set autoscale;
+set style circle radius screen 0.0005;
+set style line 1 lt rgb 'magenta' lw 4;
+set style line 2 lt rgb 'green' lw 4;
+set style line 3 lt rgb 'cyan' lw 4;
+set style line 4 lt rgb 'orange' lw 4;
+set style line 5 lt rgb 'yellow' lw 4;
+

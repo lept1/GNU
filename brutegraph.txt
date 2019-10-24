@@ -1,0 +1,6 @@
+do for [i=0:63] {
+    set output sprintf('%d.png', i)
+    plot 'brute.dat' u 1:2 index i t 'Hawk' w l ls 1,'' u 1:3 index i t 'Dove' w l ls 2, '' u 1:4 index i t 'Bully' w l ls 3 dt 2, '' u 1:5 index i t 'Retaliator' w l ls 4 dt 2
+
+}
+
